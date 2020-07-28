@@ -1,0 +1,117 @@
+{
+  "resturants": [
+    {
+      "name": "MCD",
+      "address": "#50 New Delhi",
+      "email": "mcd@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "kfc",
+      "address": "#50 New Delhi",
+      "email": "kfc@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ranjha Love",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "rashi",
+      "address": "house no 40, ekta vihar baltana, zirakpur",
+      "email": "rashisaini51@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Ranjha Love",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "rashi",
+      "address": "house no 40, ekta vihar baltana, zirakpur",
+      "email": "rashisaini51@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Lucky Love Dhiman",
+      "address": "Zirkpur, Zirkpur",
+      "email": "ranjha.love554@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Lucky Love ",
+      "address": "Zirkpur, Zirkpur",
+      "email": "rashisaini51@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "rashi",
+      "address": "house no 40, ekta vihar baltana, zirakpur",
+      "email": "rashisaini51@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Lucky Love Dhiman",
+      "address": "Zirkpur, Zirkpur",
+      "email": "ranjha.love554@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "Atul",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "atul@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Ranjha Love",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "Ranjha Love",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "sukhi",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "atul dhiman",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "aman",
+      "address": "Hem Vihar Phase-2 Baltana",
+      "email": "ranjha.love554@gmail.com",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "name": "Ranjha Love",
+      "email": "ranjha.love554@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Lucky",
+      "email": "rashisaini51@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "sukhi",
+      "email": "acb@gmail.com",
+      "id": 3
+    }
+  ]
+}

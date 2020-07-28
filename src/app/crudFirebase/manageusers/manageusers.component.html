@@ -1,0 +1,60 @@
+<section class="mt-5">
+  <div class="container">
+    <h1 class="text-center">Manage Users</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+         <h2 class="text-success">Add Users</h2>
+         <form class="bg-light p-3" (ngSubmit)="onSubmit(userForm.value)" #userForm="ngForm">
+          <div class="form-group">
+            <label for="name">Username</label>
+            <input type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            ngModel
+            #name
+            autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="technology">Technology Use</label>
+            <input type="text"
+            class="form-control"
+            id="technology"
+            name="technology"
+            ngModel
+            #technology
+            autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-success mr-2">{{ editMode ? 'Update User' : 'Add User' }}</button>
+          <button type="button" (click)="fetchUsers()"  class="btn btn-warning">Fetch Users</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="text-success">{{dataTilte}}</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr class="bg-dark text-white">
+              <th>#</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of users; let i = index">
+              <td>{{i + 1}}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.technology}}</td>
+              <td>
+                <i (click)="editUser(item.userId, i)" class="fa fa-pencil mr-3 text-success"></i>
+                <i (click)="deleteUser(item.userId)" class="fa fa-trash text-danger"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+<section class="mt-5 mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h1 class="text-center">{{dataTitle | uppercase}}</h1>
+          <table class="table table-bordered mt-4">
+            <thead>
+                <tr class="bg-dark text-white">
+                  <th>Sr.No</th>
+                  <th>Name</th>
+                  <th>Address</th>
+                  <th>Email</th>
+                  <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of collection | orderBy: 'name' | paginate: { itemsPerPage: 8, currentPage: page }; index as i">
+                <td>{{(page - 1) * 8 + i + 1}}</td>
+                <td>{{item.name | titlecase}}</td>
+                <td>{{item.address}}</td>
+                <td>{{item.email}}</td>
+                <td>
+                  <i (click)="delListing(item.id)" class="fa fa-trash mr-3 text-danger"></i>
+                  <a routerLink="/updateresto/{{item.id}}"><i class="fa fa-pencil text-success"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-center" *ngIf="loader">
+            <div class="spinner-border text-warning" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <pagination-controls (pageChange)="page = $event"></pagination-controls>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
