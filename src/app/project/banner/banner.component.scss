@@ -1,0 +1,50 @@
+:host ::ng-deep .ng5-slider
+{
+
+  .ng5-slider-pointer
+  {
+    width: 18px;
+    height: 18px;
+    top: -8px;
+    background: #e80101;
+    &::after
+    {
+      content: '';
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      border-radius: 4px;
+      background: #e80101;
+    }
+    &:focus
+    {
+      outline: none;
+    }
+    &:hover::after
+    {
+      background-color: #e80101;
+    }
+  }
+  .ng5-slider-bubble {
+    cursor: default;
+    bottom: 20px;
+    padding: 1px 3px;
+      color: #55637d;
+      font-size: 16px;
+  }
+
+  .ng5-slider-selection {
+    z-index: 2;
+    background: #e80101;
+    border-radius: 2px;
+}
+
+
+}
+.rangWidth {
+  position: relative;
+  top: -23px;
+  width: 95%;
+}

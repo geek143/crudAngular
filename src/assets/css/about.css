@@ -1,0 +1,147 @@
+.bgBefore 
+{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgBefore.bg-img 
+{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bgBefore.bg-img::before 
+{
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bgBefore h1
+{
+	position: relative;
+	color:#fff;
+	font-size: 60px;
+}
+
+.featured-inner 
+{
+    display: flex;
+    align-items: center;
+}
+.featured-inner .fb-icon
+{
+	padding-right: 10px;
+}
+
+.featured-inner .fb-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.featured-inner .fb-text h5 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.featured-inner .fb-text p {
+    color: #7D7D7D;
+    font-size: 16px;
+}
+
+.iconflexab
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about1 h4
+{
+	font-size: 32px;
+}
+
+/* Social */
+.header-top-right .fa {
+  padding: 7px;
+  font-size: 16px;
+  width: 29px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2px;
+  border-radius:50%
+}
+
+.header-top-right .fa:hover 
+{
+    opacity: 0.7;
+}
+
+.header-top-right .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.header-top-right .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.header-top-right .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.header-top-right .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.contaddres.timesw div {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.contaddres.timesw div i {
+       width: 40px;
+    color: #E80101;
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+.contact_form {
+    background: #f3f8ff;
+    padding: 40px;
+}
+
+.contact_form input {
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.1);
+    height: 50px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 0;
+    border: none;
+}
+
+.contact_form textarea {
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.1);
+    border-radius: 0;
+    border: none;
+    margin-bottom: 20px;
+}

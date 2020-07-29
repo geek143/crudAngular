@@ -1,0 +1,123 @@
+<div class="topheader">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12">
+           <div class="d-flex justify-content-between align-items-center">
+              <p>Welcome to our online Service BeautAsap</p>
+              <div class="loginBox">
+                 <a href="login.php"> <img src="assets/images/login.svg" width="18" alt="" /> </a>
+                 <a href="#"> <img src="assets/images/heart.svg" width="20" alt="" /> </a>
+                 <a href="#"> <img src="assets/images/notification.svg" width="18" alt="" /> </a>
+                 <a href="#"> <img src="assets/images/cart.svg" width="18" alt="" /> </a>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+<header class="header-bottom header-sticky">
+  <!------ Include the above in your HEAD tag ---------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sidebarNavigation"  data-sidebarClass="navbar-dark bg-dark">
+     <div class="container">
+        <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt="Logo" width="100" /></a>
+        <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+           aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav nav-flex-icons ml-auto pr-4">
+              <li class="nav-item active">
+                 <a class="nav-link" href="about.php">About Us</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="saloon.php">Salons</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="blog.php">Blog</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="faq.php">FAQ</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="contact.php">Contact Us</a>
+              </li>
+           </ul>
+        </div>
+        <div class="navToggle" onclick="">
+           <svg class="ham hamRotate ham1" style="width: 40px;" viewBox="0 0 100 100" onclick="openSideDrawer()">
+              <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+              <path class="line middle" d="m 30,50 h 40" />
+              <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+           </svg>
+        </div>
+     </div>
+  </nav>
+  <!-- /navbar wrapper -->
+</header>
+<!-- Begin Side Drawer -->
+<div id="side-drawer" class="position-fixed">
+  <div class="h-100 bggty">
+     <!-- Side Drawer Title -->
+     <!-- div class="p-4 bg-dark">
+        <a href="#">
+          <h1 class="text-white">Home</h1>
+        </a>
+        </div> -->
+     <!-- Side Drawer Links -->
+     <ul id="links" class="list-group newLista">
+        <div class="linkur">
+           <div class="nav-side-menu">
+              <div class="brand">Beautasap</div>
+             <!--  <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i> -->
+              <div class="menu-list">
+                 <ul id="menu-content" class="menu-content out">
+                    <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                       <a href="#">Hair <span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse" id="products">
+                       <div class="header_new">Ladies</div>
+
+                       <li class="active"><a href="#">Cutting</a></li>
+                       <li><a href="#">Style</a></li>
+                       <li><a href="#">Coloring</a></li>
+                       <li><a href="#">Other</a></li>
+                       <div class="header_new">Gentalmen</div>
+
+                       <li class="active"><a href="#">Cutting</a></li>
+                       <li><a href="#">Style</a></li>
+                       <li><a href="#">Coloring</a></li>
+                       <li><a href="#">Other</a></li>
+
+                    </ul>
+                 </ul>
+
+                 <ul id="menu-content" class="menu-content out">
+                    <li  data-toggle="collapse" data-target="#products1" class="collapsed active">
+                       <a href="#">Nails <span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse" id="products1">
+                       <div class="header_new">Ladies</div>
+
+                       <li class="active"><a href="#">Cutting</a></li>
+                       <li><a href="#">Style</a></li>
+                       <li><a href="#">Coloring</a></li>
+                       <li><a href="#">Other</a></li>
+                       <div class="header_new">Gentalmen</div>
+
+                       <li class="active"><a href="#">Cutting</a></li>
+                       <li><a href="#">Style</a></li>
+                       <li><a href="#">Coloring</a></li>
+                       <li><a href="#">Other</a></li>
+
+                    </ul>
+                 </ul>
+              </div>
+
+
+           </div>
+        </div>
+     </ul>
+  </div>
+</div>
+<div id="side-drawer-void" class="position-fixed " onclick="closeSideDrawer()"></div>
+<!-- End Side Drawer -->

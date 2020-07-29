@@ -1,0 +1,147 @@
+@media screen and (max-width: 1024px)
+{
+	.servicesBox
+	{
+		    padding: 0 20px;
+	}
+
+	.featured-inner {
+	    display: flex;
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+	.featured-inner .fb-text 
+	{
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 991px)
+{
+  	.navbar-light .navbar-brand {
+	    margin: 0 auto;
+	}
+
+}
+
+
+@media screen and (max-width: 768px)
+{
+  
+}
+
+
+@media screen and (max-width: 767px)
+{
+ 	.navToggle 
+ 	{
+	    position: absolute;
+	    top: 22px;
+	    right: 15px;
+	}
+
+	.featured-box {
+	    margin-bottom: 39px;
+	}
+
+	.featured-box:last-child {
+	    margin-bottom:0;
+	}
+	
+	.sideMenu
+	{
+		max-width: 60%;
+	}
+
+
+	.navbar-light .navbar-brand {
+	    margin: 0 auto;
+	}
+
+	.sidebarNavigation
+	{
+		padding: 0;
+	}
+
+	.topheader .d-flex
+	{
+	 flex-direction: column;
+	}
+
+	.topheader p 
+	{
+	    margin-bottom: 4px;
+	}
+
+	.loginBox img {
+    	width: 15px;
+	}
+
+	.banner
+	{
+		height: initial;
+		padding: 50px 0
+	}
+
+	.banner .custombtn {
+	    padding: 4px 21px;
+	    line-height: 2.7em;
+	    font-size: 14px;
+	}
+
+	.rangWidth {
+	    position: relative;
+	    top: 8px;
+	    width: 95%;
+	    left: 10px;
+	    margin-bottom: 28px;
+	}
+
+	h2 {
+	    font-size: 30px;
+	}
+
+	span.textop {
+	    position: absolute;
+	    top: -19px;
+	    font-size: 11px;
+	}
+
+	.servicesBox
+	{
+		padding: 0 30px; 
+	}
+
+	.subscribe h4 {
+		font-size: 23px;
+	}
+
+	.subscribe .w-50
+	{
+	 	 width: 100% !important
+	}
+
+	.newmb
+	{
+		margin-bottom: 30px;
+	}
+
+	.secPad {
+	    padding: 40px 0;
+	}
+
+	footer p {
+	    margin-bottom: 5px;
+	}
+
+	.footer-bottom-wrap {
+		flex-direction: column;
+	}
+}	
+
+@media screen and (max-width: 640px)
+{
+  
+}
